@@ -28,6 +28,79 @@
   color: #61dafb;
 }
 
+.leftSide{
+  height:50vh;
+  width:100%;
+}
+.rightSide{
+  height:50vh;
+  width:100%;
+}
+
+@media screen and (min-width :786px){
+  .leftSide, .rightSide, .left {
+     height: 100vh;
+  }
+}
+
+.leftSide {
+  background-color: rgb(84, 99, 241);
+}
+
+.rightSide {
+  /* background-color: rgb(79, 189, 233); */
+  background-color: rgba(74, 128, 228, 0.959);
+}
+
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:rgba(0, 17, 255, 0.561);
+  border-radius: 10px;
+  outline-color: rgba(0, 0, 255, 0.329);
+}
+
+.table {
+    width: 80%;
+    margin-left : 60px;
+    background-color: rgba(74, 128, 228, 0.959);
+    
+}
+  .table td, .table th {
+    border: 1px black ;
+    border-bottom: 1px black;
+    
+  }
+  table, th, td , tr {
+    border: 1px solid black;
+  }
+
+  tr:hover {background-color: rgb(71, 88, 245);}
+    
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #040faa;
+    color:white;
+  }
+
+  .btn-1{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgba(0, 17, 255, 0.705);
+    border-radius: 8px;
+    outline-color: rgba(0, 0, 255, 0.329);
+  }
+
+  .left {
+    background-color: rgb(71, 88, 245);
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
